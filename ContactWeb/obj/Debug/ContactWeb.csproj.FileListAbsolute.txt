@@ -63,6 +63,9 @@ C:\MSDev\ContactWeb\ContactWeb\bin\System.Web.WebPages.dll
 C:\MSDev\ContactWeb\ContactWeb\bin\System.Web.WebPages.Razor.dll
 C:\MSDev\ContactWeb\ContactWeb\bin\WebGrease.dll
 C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.Owin.xml
+C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.Owin.Security.xml
+C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.Owin.Security.Facebook.xml
 C:\MSDev\ContactWeb\ContactWeb\bin\System.Web.Helpers.xml
 C:\MSDev\ContactWeb\ContactWeb\bin\System.Web.Mvc.xml
 C:\MSDev\ContactWeb\ContactWeb\bin\System.Web.Optimization.xml
@@ -77,10 +80,7 @@ C:\MSDev\ContactWeb\ContactWeb\bin\EntityFramework.SqlServer.xml
 C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.AspNet.Identity.Core.xml
 C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.Owin.xml
 C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.Owin.Security.xml
-C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.Owin.Security.Facebook.xml
 C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.Owin.Security.Cookies.xml
 C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.Owin.Security.OAuth.xml
 C:\MSDev\ContactWeb\ContactWeb\bin\Microsoft.Owin.Security.Google.xml
