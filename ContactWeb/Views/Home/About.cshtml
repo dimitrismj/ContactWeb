@@ -1,9 +1,52 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "About me";
 }
 <h2>@ViewBag.Title.</h2>
 <h3></h3>
 
-<p>Hi! I am Dimitris Baltas. I have a Bachelor in Mathematics and a Master degree in Computer Science.</p>
-<p>This page is a basic online contact manager which is written in C# using ASP.NET MVC framework.</p>
-<p>You can either create a new account or log in via your facebook account and then add your contacts.</p>
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center aboutContainerFluid" >
+    <h3 class="h3WhiteText margin">Who Am I?</h3>
+    <img src="~/images/me.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+    <h3 class="h3WhiteText">Hi, I am Dimitris Baltas.</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center myclass aboutContainerFluid">
+    <h3 class="margin h3WhiteText">What Am I?</h3>
+    <img src="~/images/programmer.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+    <p id="whoAmI">I'm a Programmer - Mathematician from Greece. I have a Bachelor in Mathematics and a Master in Informatics. Friends often call me as a computer geek. <br /> 
+                   My academic credentials are reinforced by one year programming experience at an IT company and nine years teaching experience at both mathematics and programming. <br /> 
+                   I spend daily a lot of  hours on teaching and coding. I'm a highly motivated, well organized and ambitious person who also has ability to adapt to working in team environments. <br />
+                   <p> I decided to create this project in order to share my passion with people like me and to improve my knowledge. </p>
+                   <p>Hope you’ll enjoy it.</p>
+    
+    
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center aboutContainerFluid">
+    <h3 class="margin">Where To Find Me?</h3><br>
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Facebook</h3>
+            <p>See my Facebook profile.</p>
+            <img src="~/images/facebook.png" class="img-responsive img-circle margin" style="display:inline" alt="facebook" width="350" height="350">
+            <p id="whoAmI"><a class="btn btn-default" href="https://www.facebook.com/profile.php?id=100011062952599">My Facebook account  &raquo;</a></p>
+        </div>
+        <div class="col-sm-4">
+            <h3>GitHub</h3>
+            <p>Explore my public repositories in GitHub.</p>
+            <img src="~/images/github.png" class="img-responsive img-circle margin" style="display:inline" alt="github" width="350" height="350">
+            <p id="whoAmI"><a class="btn btn-default" href="https://github.com/dimitrismj">My GitHub account  &raquo;</a></p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Linkedin</h3>
+            <p>Visit my Linkedin profile.</p>
+            <img src="~/images/linkedin.png" class="img-responsive img-circle margin" style="display:inline" alt="linkedin" width="350" height="350">
+            <p id="whoAmI"><a class="btn btn-default" href="https://www.linkedin.com/in/dimitris-baltas-286476b5/">My Linkedin account  &raquo;</a></p>
+        </div>
+       
+    </div>
+</div>
+

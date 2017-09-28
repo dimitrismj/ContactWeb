@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -223,10 +224,10 @@
     <Content Include="Content\images\ui-icons_cccccc_256x240.png" />
     <Content Include="Content\images\ui-icons_ffffff_256x240.png" />
     <Content Include="css\bootstrap-theme.min.css" />
-    <Content Include="css\bootstrap.min1.css" />
-    <Content Include="css\bootstrap.min-flatly.css" />
+    <Content Include="css\bootswatch.bootstrap.min.css" />
     <Content Include="css\colReorder.bootstrap.min.css" />
-    <Content Include="css\dataTables.bootstrap1.min.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\images\contacts.png" />
     <Content Include="css\images\ui-bg_glass_40_ffc73d_1x400.png" />
     <Content Include="css\images\ui-bg_highlight-hard_20_0972a5_1x100.png" />
     <Content Include="css\images\ui-bg_highlight-soft_33_003147_1x100.png" />
@@ -243,14 +244,22 @@
     <Content Include="css\jquery-ui.structure.min.css" />
     <Content Include="css\jquery-ui.theme.min.css" />
     <Content Include="css\jquery.dataTables.min.css" />
-    <Content Include="css\jquery.dataTables_themeroller1.css" />
-    <Content Include="css\site.css" />
+    <Content Include="css\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\contacts.jpg" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\github.png" />
+    <Content Include="images\linkedin.png" />
+    <Content Include="images\me.jpg" />
+    <Content Include="images\oneplace.png" />
+    <Content Include="images\programmer.png" />
+    <Content Include="images\register.jpg" />
+    <Content Include="images\search.jpg" />
     <Content Include="js\lib\bootstrap.min.js" />
     <Content Include="js\lib\dataTables.bootstrap.min.js" />
     <Content Include="js\lib\dataTables.colReorder.min.js" />
@@ -294,7 +303,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

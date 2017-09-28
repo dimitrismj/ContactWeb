@@ -23,13 +23,10 @@ namespace ContactWeb
                         "~/js/lib/dataTables.colReorder.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/css/bootstrap.min-flatly.css",
-                      "~/css/jquery.dataTables.min.css",
-                      "~/css/jquery.dataTables_themeroller.css",
-                      "~/css/dataTables.bootstrap.min.css",
+                      "~/css/bootswatch.bootstrap.min.css",
                       "~/css/colReorder.bootstrap.min.css",
                       "~/css/jquery-ui.min.css",
-                      "~/css/site.css"));
+                      "~/css/Site.css")); // Use Site.css and never site.css otherwise boostrap.css cannot be overriden.
         }
     }
 }
